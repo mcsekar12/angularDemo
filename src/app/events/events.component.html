@@ -1,0 +1,23 @@
+<div>
+    <p>Events</p>
+
+    <div *ngIf="loading">Loading Events....</div>
+    <div *ngIf="!loading && events.length==0">No Events Found</div>
+<div *ngFor="let event of events" class="event">
+   
+    <div class="event__name">
+            <a [routerLink]="['/event', event.id]">
+                <span class="badge"></span>{{event.name.text}}
+              </a> 
+    </div>
+    <div class="event__img">
+            <img [src]="event.logo.url" alt="images">
+    </div>
+    <div class="event__desc">
+        {{event.description.text}}
+    </div>
+
+</div> 
+
+
+</div>

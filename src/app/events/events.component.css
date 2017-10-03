@@ -1,0 +1,13 @@
+.event{
+    border:1px dashed lightcoral;
+    padding:10px;
+    margin:10px;
+}
+.event__name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.event__desc{
+    font-size: 12px;
+    font-weight: lighter;
+}

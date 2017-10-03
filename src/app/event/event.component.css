@@ -1,0 +1,27 @@
+.event__status{
+    font-size: 12px;
+    background: green;
+    color: white;
+    display: inline;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 2px;
+
+}
+
+.event__name{
+    font-size: 18px;
+    font-weight: bold;
+    margin:10px;
+
+}
+
+.event__name a{
+   text-decoration: none;
+   color:lightseagreen;
+    
+}
+.event__desc{
+    font-size: 12px;
+    font-weight: lighter;
+}
